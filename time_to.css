@@ -172,10 +172,11 @@ h4::before {
     content: "";
     width: 100%;
     height: 2px;
-    left: 620px;
+    left: 50%;
     bottom: 50px;
     max-width: 178px;
     background: #707070;
+    transform: translateX(-50%);
 }
 h4:hover::before {
     background: orange;
@@ -208,8 +209,8 @@ h4:hover::before {
         grid-template-columns: auto;
         grid-template-rows: auto;
         grid-template-areas: 
-        "line_1"
-        "line_2";
+        "line_2"
+        "line_1";
         text-align: center;
     }
     .main__information {
